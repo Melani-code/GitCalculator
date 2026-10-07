@@ -8,7 +8,7 @@ int main() {
     cout << "Enter first number: ";
     cin >> a;
 
-    cout << "Enter operation (+ or -): ";
+    cout << "Choose operation (+ or -): ";
     cin >> operation;
 
     cout << "Enter second number: ";
@@ -23,4 +23,4 @@ int main() {
     }
 
     return 0;
-}
+} 
