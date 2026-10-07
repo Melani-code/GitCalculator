@@ -5,7 +5,7 @@ int main() {
     double a, b;
     char operation;
 
-    cout << "Enter  number 1: ";
+    cout << "Enter the first number: ";
     cin >> a;
 
     cout << "Choose operation (+, - or *): ";
