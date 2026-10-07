@@ -1,0 +1,19 @@
+name: C++ CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile calculator
+        run: g++ main.cpp -o calculator
+
+      - name: Test executable
+        run: echo -e "10\n+\n5" | ./calculator
