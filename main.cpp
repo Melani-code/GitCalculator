@@ -11,7 +11,7 @@ int main() {
     cout << "Choose operation (+, -, * or /): ";
     cin >> operation;
 
-    cout << "Enter second number: ";
+    cout << "Enter number 2: ";
     cin >> b;
 
     if (operation == '+') {
