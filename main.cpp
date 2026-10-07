@@ -8,7 +8,7 @@ int main() {
     cout << "Enter first number: ";
     cin >> a;
 
-    cout << "Choose operation (+ or -): ";
+    cout << "Choose operation (+, - or *): ";
     cin >> operation;
 
     cout << "Enter second number: ";
@@ -18,7 +18,10 @@ int main() {
         cout << "Result: " << a + b << endl;
     } else if (operation == '-') {
         cout << "Result: " << a - b << endl;
-    } else {
+    }  else if (operation == '*') {
+    cout << "Result: " << a * b << endl;
+    }
+    else {
         cout << "Invalid operation." << endl;
     }
 
